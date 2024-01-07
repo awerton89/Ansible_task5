@@ -1,0 +1,9 @@
+---
+- hosts: devops1
+  gather_facts: no
+  become: yes
+  roles:
+   - users
+   - php
+   - http
+
